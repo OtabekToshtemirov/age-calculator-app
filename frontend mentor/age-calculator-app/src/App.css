@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Noto+Sans:wght@100;400;600;900&family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+
+body{
+    background-color: #F0F0F0;
+    font-size: 32px;
+    font-family: 'Popins', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight:800;
+
+}
+button{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid #E0E0E0;
+    background-color: hsl(259, 100%, 65%);
+    color: #ffffff;
+    font-size: 32px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 75%;
+    left: 90%;
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+.App{
+    width: 650px;
+    background-color: #ffffff;
+    margin: 3rem auto;
+    padding: 40px;
+    border-radius: 15px 15px 30% 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+hr{
+    border: 1px solid #E0E0E0;
+    margin: 0 10px;
+}
+
+.col-4{
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+}
+.row{
+    display: flex;
+    justify-content: start;
+    color: #717171;
+    position: relative;
+}
+
+label{
+    font-size: 16px;
+    color: #717171;
+    margin: 10px 10px 0;
+}
+input{
+    width: 80%;
+    height: 40px;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 32px;
+    font-weight: 900;
+    outline: hsl(259, 100%, 65%);
+}
+input:focus{
+    border: 2px solid hsl(259, 100%, 65%);
+}
+input:hover{
+    cursor: pointer;
+}
+.output{
+    /*font family poppins italic*/
+    font-family: 'Popins', sans-serif;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+}
+.output span{
+    color: #8A54FF;
+    margin: 10px 10px 0;
+    font-weight: 900;
+
+}
+.result{
+    font-family: 'Popins', sans-serif;
+    font-size: 80px;
+    font-weight: 900;
+    margin: 10px 10px 0;
+
+}
