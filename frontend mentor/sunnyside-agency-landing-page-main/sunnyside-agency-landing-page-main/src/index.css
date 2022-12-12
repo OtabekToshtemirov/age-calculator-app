@@ -1,0 +1,95 @@
+
+/*The designs were created to the following widths:*/
+
+/*- Mobile: 375px*/
+/*- Desktop: 1440px*/
+
+/*## Colors*/
+
+/*### Primary*/
+
+/*- Soft red: hsl(7, 99%, 70%)*/
+/*- Yellow: hsl(51, 100%, 49%)*/
+/*- Dark desaturated cyan (graphic design text): hsl(167, 40%, 24%)*/
+/*- Dark blue (photography text): hsl(198, 62%, 26%)*/
+/*- Dark moderate cyan (footer): hsl(168, 34%, 41%)*/
+
+/*### Neutral*/
+
+/*- Very dark desaturated blue: hsl(212, 27%, 19%)*/
+/*- Very dark grayish blue: hsl(213, 9%, 39%)*/
+/*- Dark grayish blue: hsl(232, 10%, 55%)*/
+/*- Grayish blue: hsl(210, 4%, 67%)*/
+/*- White: hsl(0, 0%, 100%)*/
+
+/*## Typography*/
+
+/*### Body Copy*/
+
+/*- Font size: 18px*/
+
+/*### Font*/
+
+/*- Family: [Barlow](https://fonts.google.com/specimen/Barlow)*/
+/*- Weights: 600*/
+/*- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)*/
+/*- Weights: 700, 900*/
+/* create variables for colors and fonts */
+/* import fonts */
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+
+:root {
+  /* colors */
+  --soft-red: hsl(7, 99%, 70%);
+  --yellow: hsl(51, 100%, 49%);
+  --dark-desaturated-cyan: hsl(167, 40%, 24%);
+  --dark-blue: hsl(198, 62%, 26%);
+  --dark-moderate-cyan: hsl(168, 34%, 41%);
+  --very-dark-desaturated-blue: hsl(212, 27%, 19%);
+  --very-dark-grayish-blue: hsl(213, 9%, 39%);
+  --dark-grayish-blue: hsl(232, 10%, 55%);
+  --grayish-blue: hsl(210, 4%, 67%);
+  --white: hsl(0, 0%, 100%);
+  --body-font: "Barlow", sans-serif;
+  --heading-font: "Fraunces", serif;
+  --body-font-size: 18px;
+  --body-font-weight: 600;
+  --heading-font-weight: 700;
+  --heading-font-weight-bold: 900;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--dark-desaturated-cyan);
+  font-family: var(--body-font);
+  font-size: var(--body-font-size);
+  font-weight: var(--body-font-weight);
+  line-height: 1.5;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  font-weight: var(--heading-font-weight);
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
