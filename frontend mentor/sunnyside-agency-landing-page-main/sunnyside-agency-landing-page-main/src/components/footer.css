@@ -17,6 +17,12 @@
     transition: all 0.3s ease-in-out;
    
 }
+.footer .centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
 .footer-menu{
     width: 30%;
     margin: 0 auto;
